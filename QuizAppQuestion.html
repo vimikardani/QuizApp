@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="QuizApp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+</head>
+
+<body>
+    <form>
+        <!-- Show Category Name, User Score and Timer -->
+        <p id="cat_name"></p>
+        <div class="time_counter" id="timer">
+        </div>
+        <p class="p_score" id="score">SCORE :</p>
+        <div class="que_counter">
+            <span id="que_count">1/10</span>
+        </div>
+        <!-- Show Question and Options -->
+        <div class="que_list" id="Ques_list" >
+        </div>
+        <div class="option_list" id="option_list">
+            <input id="option_1" type="button"  class="choose_ans" onclick="optionSelected(1)">
+            <input id="option_2" type="button" class="choose_ans" onclick="optionSelected(2)">
+            <input id="option_3" type="button" class="choose_ans" onclick="optionSelected(3)">
+            <input id="option_4" type="button" class="choose_ans" onclick="optionSelected(4)">
+            <input id="next_ques" type="button" onclick="changeIndex()" class="next_qus" value="Next Question">
+        </div>
+
+    </form>
+
+
+    <script src="QuizAppQuestion.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
