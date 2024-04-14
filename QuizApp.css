@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+/* Style on Form tag */
+form{
+    background-color:white;
+    width:480px;
+    height:480px;
+    margin: 150px auto;
+    border: 3px solid rgb(231, 228, 228);
+    border-radius: 2%;
+    box-shadow: 0.5px 0.5px rgb(231, 228, 228) ;    
+}
+/* Style on Logo */
+img{
+        height:60px;
+        width:60px;
+        border: none;
+        display: block;
+        margin:40px auto;
+}
+/* Style on User name on homepage*/
+h2.h2_user{
+    color:rgb(60, 183, 231);
+    text-align: center;
+    margin-top: -30px;
+}
+/* Style on result page title */
+h2.h2_result{
+    color:rgb(60, 183, 231);
+    text-align: center;
+    margin-top: 20px;
+}
+h5{
+    text-align: center;
+    margin-top: -10px;
+    font-weight: 0px;
+    font-size: 14px;
+    
+}
+/* Style on Input Username */
+input.username{
+        width:330px;
+        height:28px;
+        margin-left: 35px;
+        border: 2px solid rgb(231, 228, 228);
+        border-radius: 6px;
+        box-shadow: 0.5px 0.5px rgb(231, 228, 228) ;
+        font-size: 12px;
+        font-weight: 100px;
+}
+/* Style on Enter Button in Homepage*/
+button.btn_enter{
+    width:70px;
+    height:25px;
+    background-color:rgb(60, 183, 231) ;
+    color:white;
+    text-transform:uppercase ;
+    font-size: 10px;
+    border:none;
+    border-radius: 3px;
+}
+/* Style on Go to Home Button in result page */
+button.btn_result{
+    width:120px;
+    height:30px;
+    background-color:rgb(60, 183, 231) ;
+    color:white;
+    /* text-transform:uppercase ; */
+    font-size: 12px;
+    font-weight: 5px;
+    border:none;
+    border-radius: 15px;
+    margin-left:120px;
+    margin-top: 20px;
+    
+}
+/* Style on Quiz description in Homepage */
+p.p_quizRule{
+    text-align: center;
+    /* margin-top: 20px; */
+    font-weight: 0px;
+    font-size: 12px;
+    color:rgb(156, 153, 153);
+    /* border-bottom: 1px solid rgb(156, 153, 153); */
+    padding: 10px;
+    
+    
+}
+/* Style on result page */
+p.p_result{
+    text-align: center;
+    color:rgb(156, 153, 153);
+    font-size: 14px;
+}
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Style on Display Category Part */
+#category{
+    display: none;
+    /* border: 2px solid black; */
+}
+h2.h2_category{
+    color:rgb(60, 183, 231);
+    text-align: center;
+    margin-top: 0px;
+}
+p#cat_name{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+/* Style on Input Button for Category */
+input.input_category{
+    height:30px;
+    width:180px;
+    background-color: #ebf4f7;
+    color:rgb(156, 153, 153);
+    text-align: center;
+    font-size: 11px;
+    border:1px solid rgb(60, 183, 231);
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-top: 10px;
+    box-shadow: 1px 1px rgb(60, 183, 231);
+}
+/* Style on Time Counter in Question page */
+div.time_counter{
+    width:50px;
+    height:50px;
+    border:1px solid rgb(60, 183, 231);
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top:50px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(60, 183, 231);
+}
+span{
+    /* text-align: center; */
+    /* margin-left: 10px; */
+    font-size: 20px;
+    position: relative;
+    left:10px ;
+    top:15px;
+    /* mar20gin-bottom: -40px; */
+
+}
+/* Style on User Score */
+p.p_score{
+    float: right;
+    margin-top: -40px;
+    margin-right:40px ;
+    font-size: 18px;
+}
+/* Style on Question area */
+div.que_list{
+        width:440px;
+        height:180px;
+        border:3px solid rgb(216, 213, 213);
+        margin:-30px auto;
+        border-radius: 10px;
+        color:black;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+        
+        
+}
+/* Style on Question Counter */
+div.que_counter{
+    width:60px;
+    height:60px;
+    border:1px solid rgb(60, 183, 231);
+    border-radius: 50%;
+    margin-left: 210px;
+    margin-top: -25px;
+    background-color: white;
+    position: relative;
+    color:rgb(60, 183, 231);
+
+}
+/* Style on Button for Option selection */
+input.choose_ans:hover{
+    background-color: rgb(60, 183, 231);
+    color: white;
+}
+input.choose_ans:focus{
+    background-color: rgb(60, 183, 231);
+    color:white
+}
+input.choose_ans{
+    height:30px;
+    width:200px;
+    background-color: #ebf4f7;
+    color:rgb(60, 183, 231);
+    text-align: center;
+    font-size: 11px;
+    border:1px solid rgb(60, 183, 231);
+    border-radius: 15px;
+    margin-left: 25px;
+     position: relative;
+     top:40px;
+     left:0px;
+     margin-top: 10px;
+    /* box-shadow: 1px 1px rgb(60, 183, 231); */
+}
+/* Style on Next Question Button */
+input.next_qus{
+    height:30px;
+    width:150px;
+    background-color:rgb(60, 183, 231);
+    color:White;
+    text-align: center;
+    font-size: 12px;
+    border:1px solid rgb(60, 183, 231);
+    border-radius: 15px;
+    margin-left: 60px;
+    position: relative;
+    top:50px;
+    left:100px;
+}

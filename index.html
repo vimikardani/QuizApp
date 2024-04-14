@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="QuizApp.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+</head>
+<body>
+    <form>
+        <!-- Enter User Details -->
+        <div class="userdetail">
+            <img src="https://content.couponspy.in/public/shop/1061.jpg">
+       
+        
+            <h2 class="h2_user">Hello user!</h2>
+            <h5>Enter your name to continue the Quiz</h5>
+        
+            <input type="text" class="username" placeholder="ENTER YOUR NAME..." id="enter">
+            <button class="btn_enter"  id="enter_btn" onclick="saveUser()">Enter</button>
+            <p class="p_quizRule">You'll have 10 seconds to answer each questions</p>
+            <hr>
+            
+            
+        </div>
+        <!-- Show Category  -->
+        <div id="category" class="category_list">
+            <h2 class="h2_category">Select Category</h2>
+            <input type="button" value="Pipes and Cisterns" class="input_category" id="cat1" onclick="click1('Pipes and Cisterns')">
+            <input type="button" value="Probability" class="input_category" id="cat2" onclick="click1('Probability')">
+            <input type="button" value="Problem on Ages" class="input_category" id="'cat3" onclick="click1('Problem on Ages')">
+            <input type="button" value="Profit And Loss" class="input_category"id="cat4" onclick="click1('Profit And Loss')">
+        </div>
+
+    </form>
+    
+    <script src="QuizApp.js"></script>
+   
+</body>
+</html>

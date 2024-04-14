@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="QuizApp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <script>
+        // localStorage.setItem('endTime', Date.now())
+    </script>
+</head>
+
+<body>
+    <form>
+        <!-- User Result Details -->
+        <div class="result">
+            <h2 class="h2_result">Quiz Result</h2>
+            <p class="p_result" id="username">Your result is :</p>
+            <p class="p_result" id="total_time">Total Time Taken : Second </p>
+            <p class="p_result" id="total_que">Total Question :</p>
+            <p class="p_result" id="attempt_que">Attempt :</p>
+            <p class="p_result" id="correct_que">Correct :</p>
+            <p class="p_result" id="wrong_que">Wrong : </p>
+            <p class="p_result" id="percentage">Percentage :</p>
+            <button  onclick="startAgain()" class="btn_result" id="restart" type="button">Start Again</button>
+            <button class="btn_result" type="button" style="margin-left: 10px;" id="home_btn" onclick="gotoHome()">Go To Home</button>
+
+        </div>
+    </form>
+    <script src="QuizAppResult.js"></script>
+</body>
+
+</html>
